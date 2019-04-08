@@ -3,7 +3,7 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 class EmailParser
-  def initialize(email)
+  def initialize(email, email_two)
     @email = email
   end
 end
