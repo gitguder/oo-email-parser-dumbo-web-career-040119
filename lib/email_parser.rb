@@ -5,5 +5,6 @@
 class EmailParser
   def initialize(email, email_two)
     @email = email
+    @email_two = email_two
   end
 end
